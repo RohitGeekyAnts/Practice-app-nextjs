@@ -5,10 +5,10 @@ import Image from "next/image";
 import img from "../public/img-2.jpg";
 
 const Home = () => {
-  console.log(img);
+  // console.log(img);
   return (
     <div>
-      <div className={styles.text}>Home</div>
+      {/* <div className={styles.text}>Home</div> */}
       {/* <h1 className="title">Styled CSS</h1> */}
       <div style={{ position: "relative", width: "800px", height: "500px" }}>
         <Image src={img} alt="Example Image" layout="fill" />
